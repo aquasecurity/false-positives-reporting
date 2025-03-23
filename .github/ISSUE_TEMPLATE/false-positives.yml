@@ -6,8 +6,9 @@ body:
     attributes:
       value: |
       #### Note
-      This repository is only relevant for Enterprise customers. For Trivy OSS, please use the following link: https://github.com/aquasecurity/trivy/discussions/new?category=false-detection.
-      **Provide a clear and detailed explanation of the false positive. Mention why the identified secret is not a true secret or why it should not be flagged by SAST.**
+      This repository is only relevant for Enterprise customers. For Trivy OSS, please use the [Trivy OSS report issue]: (https://github.com/aquasecurity/trivy/discussions/new?category=false-detection).
+      
+      **Provide a clear and detailed explanation of the false positive. Mention why the identified secret is not a true secret or why it should not be flagged by SAST.
   - type: dropdown
     attributes:
       label: scanner
