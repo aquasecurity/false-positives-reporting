@@ -2,14 +2,14 @@ name: "Report False Positives"
 description: "Report False Positives"
 body:
  - type: dropdown
-    attributes:
-      label: scanner
-      description: Which type of scanner would you like to use to report this FP?
-      options:
-        - secret
-        - SAST
-    validations:
-      required: true
+   attributes:
+     label: scanner
+     description: Which type of scanner would you like to use to report this FP?
+     options:
+       - secret
+       - SAST
+   validations:
+     required: true
  - type: input
     attributes:
       label: IDs
