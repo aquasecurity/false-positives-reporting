@@ -1,5 +1,5 @@
-name: Report False Positives
-description: Report False Positives
+name: "Report False Positives"
+description: "Report False Positives"
 body:
   - type: markdown
     attributes:
