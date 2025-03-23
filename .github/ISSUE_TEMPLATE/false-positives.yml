@@ -1,12 +1,6 @@
 name: "Report False Positives"
 description: "Report False Positives"
 body:
-  - type: markdown
-    attributes:
-      value: |
-      #### Note
-      This repository is only relevant for Enterprise customers. For Trivy OSS, please use the following link: https://github.com/aquasecurity/trivy/discussions/new?category=false-detection.
- 
  - type: dropdown
     attributes:
       label: scanner
