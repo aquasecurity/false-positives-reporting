@@ -1,35 +1,35 @@
 name: "Report False Positives"
 description: "Report False Positives"
 body:
- - type: dropdown
+- type: dropdown
+  attributes:
+    label: scanner
+    description: Which type of scanner would you like to use to report this FP?
+    options:
+      - secret
+      - SAST
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: IDs
+    description: List the IDs of rules, secrets or SAST that are either not detected or mistakenly detected.
+    placeholder: "e.g. anonymous-race-condition-aquasec-go, aws-access-key-id"
+ - type: textarea
    attributes:
-     label: scanner
-     description: Which type of scanner would you like to use to report this FP?
-     options:
-       - secret
-       - SAST
+     label: Description
+     description: Describe the false detection.
    validations:
      required: true
- - type: input
+ - type: textarea
    attributes:
-     label: IDs
-     description: List the IDs of rules, secrets or SAST that are either not detected or mistakenly detected.
-     placeholder: "e.g. anonymous-race-condition-aquasec-go, aws-access-key-id"
-  - type: textarea
-    attributes:
-      label: Description
-      description: Describe the false detection.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Reproduction Steps
-      description: How do you trigger this bug? Please walk us through it step by step (include the relevant attachments).
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
-    validations:
-      required: true
+     label: Reproduction Steps
+     description: How do you trigger this bug? Please walk us through it step by step (include the relevant attachments).
+     value: |
+       1.
+       2.
+       3.
+       ...
+     render: bash
+   validations:
+     required: true
