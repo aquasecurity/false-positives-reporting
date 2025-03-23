@@ -11,10 +11,10 @@ body:
    validations:
      required: true
  - type: input
-    attributes:
-      label: IDs
-      description: List the IDs of rules, secrets or SAST that are either not detected or mistakenly detected.
-      placeholder: "e.g. anonymous-race-condition-aquasec-go, aws-access-key-id"
+   attributes:
+     label: IDs
+     description: List the IDs of rules, secrets or SAST that are either not detected or mistakenly detected.
+     placeholder: "e.g. anonymous-race-condition-aquasec-go, aws-access-key-id"
   - type: textarea
     attributes:
       label: Description
