@@ -1,8 +1,5 @@
 ---
 labels: ["kind/bug"]
-assignees: ["CH-MOIZ"]
-name: Report False Positives
-description: Report False Positives
 body:
   - type: markdown
     attributes:
