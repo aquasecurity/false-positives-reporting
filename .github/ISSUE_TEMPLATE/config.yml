@@ -1,0 +1,4 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a false detection
+    url: https://github.com/aquasecurity/trivy/discussions/new?category=false-detection
