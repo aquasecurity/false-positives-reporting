@@ -13,7 +13,7 @@ body:
         **Provide a clear and detailed explanation of the false positive. Mention why the identified secret is not a true secret or why it should not be flagged by SAST.**
   - type: dropdown
     attributes:
-      label: scanner
+      label: Scanner
       description: Which type of scanner would you like to use to report this FP?
       options:
         - secret
