@@ -26,6 +26,8 @@ body:
       description: List the IDs of rules, secrets or SAST that are either not detected
         or mistakenly detected.
       placeholder: e.g. anonymous-race-condition-aquasec-go, aws-access-key-id
+      validations:
+        required: true
   - type: textarea
     attributes:
       label: Description
